@@ -2,8 +2,9 @@
 <html lang="es">
 	<head>
 		<meta charset="utf-8"/>
-		<meta content="" content="Prectica de diseño web on-line"/>
+		<meta name="description" content="Prectica de diseño web on-line"/>
 		<title>Puls 2014: Comunidad de gente atractiva</title>
+		<link rel="stylesheet" href="normalize.css">
 	</head>
 	<body>
 		<header>
@@ -22,7 +23,7 @@
 				<li><a href="#"></a>JavaScript</li>
 				<li><a href="#"></a>CSS3</li>
 				<li><a href="#"></a>Django</li>
-				<li><a href="#"></a>Publicar</li>
+				<li><a href="#" id="boton_publicar"></a>Publicar</li>
 			</ul>
 		</nav>
 		<section>
@@ -33,22 +34,23 @@
 				<h2 class="titulo_item">
 					<a href="">Tìtulo del artìculo</a>
 				</h2>
-				<p class="autor_item">
+				<div class="autor_item">
 					por <a href="#">aliurbin</a>
-				</p>
-				<p class="datos_item">
+				</div>
+				<div class="datos_item">
 					<a href="#">Pony</a>
 					<span>
 						Hace <strong>5</strong> min
 					</span>
-					<a href="#">3</a>
-					<a href="#"></a>
-				</p>
-				<p class="votacion">
-					<a href="#"></a>
+
+				</div>
+				<div class="votacion">
+					<a href="#" class="up_votacion"></a>
 					969
-					<a href="#"></a>
-				</p>
+					<a href="#" class="down_votacion"></a>
+					<a href="#" class="comentarios_votacion">3</a>
+					<a href="#" class="estrella_votacion"></a>
+				</div>
 			</article>
 			
 		</section>
