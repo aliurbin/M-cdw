@@ -8,3 +8,183 @@ body
 	font-family: Arial;
 	font-size: 16px;
 }
+header
+{
+	background: #3B4359;
+	color: white;
+	overflow: hidden;
+	padding: 0.5em;
+}
+header figure
+{
+	position: relative;
+	float: left;
+}
+header h1
+{
+	font-size: 1.2em;
+	font-weight: normal;
+	margin: 0;
+	margin:0.5em 70px 0 0;
+}
+header #avatar
+{
+	position:absolute;
+	margin: 0.5em 0.5em 0 0;
+	top: 0;
+	right: 0;
+
+}
+header #avatar img
+{
+	border-radius: 50%;
+	width: 55px;
+}
+header #logo
+{
+	border-right: 1px solid #25A5DE;
+	padding-right: 0.5em; 
+	margin-right: 0.5em;
+}
+header #logo img
+{
+	width: 52px;
+}
+nav
+{
+	background: #78AB9A;
+	padding: 0 0.5em;
+	position: relative;
+}
+nav ul
+{	
+	padding: 0;
+	margin: 0;
+}
+nav ul li
+{
+	display: inline-block;
+	list-style: none;
+	margin: 0 1em 0 0;
+
+}
+nav ul li a
+{
+	display: block;
+	color: white;
+	padding: 0.5em 0;
+}
+nav ul  #boton_publicar  
+{
+	position: absolute;
+	top:-0.2em;
+	right: 0;
+}
+nav ul  #boton_publicar a  
+{
+
+	background: #25A5DE;
+	border-radius: 0.2em;
+	box-shadow: rgba(0,0,0,0.5) 5px 5px 15px;
+	font-style: italic;
+	padding: 0.7em 0.5em;
+	text-decoration: none;
+	text-shadow: rgba(0,0,0,0.5) 2px 2px 5px;
+}
+footer
+{
+	padding: 2em 0;
+	background: #25A5DE;
+	text-align: center;
+}
+footer p
+{
+	color:rgba(255,255,255,0.7);
+	margin: 0;
+}
+footer p:last-child
+{
+	margin-bottom: 0;
+}
+footer p:last-child:after
+{
+	content: " -"
+}
+footer p:last-child:before
+{
+	content: "- "
+}
+section
+{
+	margin: 1em;
+}
+section .item
+{
+	background: white;
+	border-bottom: 3px solid #25A5DE;
+	margin-bottom: 2.8em;
+	position: relative;
+	min-height: 128px;
+}
+section .item .autor_item
+{
+	color:#aaa;
+	margin-bottom:1em; 
+}
+section .item .autor_item a
+{
+
+}
+section .item .datos_item
+{
+	color:#aaa;
+	margin-right: 1em;
+	text-align: right;
+}
+section .item .datos_item a
+{
+	background: #f4502a;
+	border-radius: 0.3em;
+	color: white;
+	display: inline-block;
+	float: left;
+	padding: 0.2em 0.5em;
+	text-decoration: none;
+}
+section .item .imagen_item
+{
+	float: left;
+	margin:0 1em 0 0;
+}
+section .item .imagen_item img
+{
+	width: 96px;
+}
+section .item .titulo_item
+{
+	padding: 0.5em;
+	font-size: 1.2em;
+	font-style: italic;
+}
+section .item .titulo_item a
+{
+
+	text-decoration: none;
+	color:#444;
+}
+section .item .votacion
+{
+	background: white;
+	border-radius: 0 0 5px 5px;
+	margin:3px 4%;
+	position: absolute;
+	padding: 0.3em;
+	top:100%;
+	left:0; 
+	width: 90%;
+}
+section .item .votacion .comentarios_votacion,
+section .item .votacion .estrella_votacion
+{
+	float:right;
+}
