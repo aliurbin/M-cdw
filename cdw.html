@@ -2,10 +2,13 @@
 <html lang="es">
 	<head>
 		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, minimun-sccale=1, maximun-scale=1">
 		<meta name="description" content="Prectica de diseño web on-line"/>
 		<title>Puls 2014: Comunidad de gente atractiva</title>
 		<link rel="stylesheet" href="normalize.css">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="estilos.css">
+
 	</head>
 	<body>
 		<header>
@@ -24,16 +27,22 @@
 				<li><a href="#">JavaScript</a></li>
 				<li><a href="#">CSS3</a></li>
 				<li><a href="#">Django</a></li>
-				<li id="boton_publicar"><a href="#">Publicar</a></li>
+				<li id="boton_publicar"><a href="#" class="icon-lapiz">Publicar</a></li>
 			</ul>
 		</nav>
+		<form action="" id="formulario" class="formulario">
+
+			<input type="text" id="titulo" placeholder="titulo" required>
+			<input type="url" id="url" placeholder="link" required>	
+			<input type="submit" value="agregar">
+		</form>
 		<section>
 			<article class="item">
 				<figure class="imagen_item">
 					<img src="imagen.jpg"/>
 				</figure>
 				<h2 class="titulo_item">
-					<a href="">Tìtulo del artìculo</a>
+					<a href="">Como dibujar a Messi en JavaScript con Canvas</a>
 				</h2>
 				<div class="autor_item">
 					por <a href="#">aliurbin</a>
@@ -45,11 +54,131 @@
 					</span>
 				</div>
 				<div class="votacion">
-					<a href="#" class="up_votacion">U</a>
+					<a href="#" class="up_votacion icon-flecha-arriba"></a>
 					969
-					<a href="#" class="down_votacion">D</a>
+					<a href="#" class="down_votacion icon-flecha-abajo"></a>
 					<a href="#" class="comentarios_votacion">3</a>
-					<a href="#" class="estrella_votacion">s</a>
+					<a href="#" class="estrella_votacion icon-estrella"></a>
+				</div>
+			</article>
+						<article class="item">
+				<figure class="imagen_item">
+					<img src="imagen.jpg"/>
+				</figure>
+				<h2 class="titulo_item">
+					<a href="">La estrategia de crear comunidades en internet</a>
+				</h2>
+				<div class="autor_item">
+					por <a href="#">aliurbin</a>
+				</div>
+				<div class="datosS_item">
+					<a href="#">Pony</a>
+					<span>
+						Hace <strong>5</strong> min
+					</span>
+				</div>
+				<div class="votacion">
+					<a href="#" class="up_votacion icon-flecha-arriba"></a>
+					969
+					<a href="#" class="down_votacion icon-flecha-abajo"></a>
+					<a href="#" class="comentarios_votacion">3</a>
+					<a href="#" class="estrella_votacion icon-estrella"></a>
+				</div>
+			</article>
+						<article class="item">
+				<figure class="imagen_item">
+					<img src="imagen.jpg"/>
+				</figure>
+				<h2 class="titulo_item">
+					<a href="">¿Quieres ser un autodidacta del modelado en 3D? empieza por acá</a>
+				</h2>
+				<div class="autor_item">
+					por <a href="#">aliurbin</a>
+				</div>
+				<div class="datos_item">
+					<a href="#">Pony</a>
+					<span>
+						Hace <strong>5</strong> min
+					</span>
+				</div>
+				<div class="votacion">
+					<a href="#" class="up_votacion icon-flecha-arriba"></a>
+					969
+					<a href="#" class="down_votacion icon-flecha-abajo"></a>
+					<a href="#" class="comentarios_votacion">3</a>
+					<a href="#" class="estrella_votacion icon-estrella"></a>
+				</div>
+			</article>
+						<article class="item">
+				<figure class="imagen_item">
+					<img src="imagen.jpg"/>
+				</figure>
+				<h2 class="titulo_item">
+					<a href="">Colores aleatorios con RandomColor.js</a>
+				</h2>
+				<div class="autor_item">
+					por <a href="#">aliurbin</a>
+				</div>
+				<div class="datos_item">
+					<a href="#">Pony</a>
+					<span>
+						Hace <strong>5</strong> min
+					</span>
+				</div>
+				<div class="votacion">
+					<a href="#" class="up_votacion icon-flecha-arriba"></a>
+					969
+					<a href="#" class="down_votacion icon-flecha-abajo"></a>
+					<a href="#" class="comentarios_votacion">3</a>
+					<a href="#" class="estrella_votacion icon-estrella"></a>
+				</div>
+			</article>
+						<article class="item">
+				<figure class="imagen_item">
+					<img src="imagen.jpg"/>
+				</figure>
+				<h2 class="titulo_item">
+					<a href="">La verdad detrás de Mejorando.la Conferencia México 2014</a>
+				</h2>
+				<div class="autor_item">
+					por <a href="#">aliurbin</a>
+				</div>
+				<div class="datos_item">
+					<a href="#">Pony</a>
+					<span>
+						Hace <strong>5</strong> min
+					</span>
+				</div>
+				<div class="votacion">
+					<a href="#" class="up_votacion icon-flecha-arriba"></a>
+					969
+					<a href="#" class="down_votacion icon-flecha-abajo"></a>
+					<a href="#" class="comentarios_votacion">3</a>
+					<a href="#" class="estrella_votacion icon-estrella"></a>
+				</div>
+			</article>
+						<article class="item">
+				<figure class="imagen_item">
+					<img src="imagen.jpg"/>
+				</figure>
+				<h2 class="titulo_item">
+					<a href="">Stylus: sintaxis, variables, mixins y funciones</a>
+				</h2>
+				<div class="autor_item">
+					por <a href="#">aliurbin</a>
+				</div>
+				<div class="datos_item">
+					<a href="#">Pony</a>
+					<span>
+						Hace <strong>5</strong> min
+					</span>
+				</div>
+				<div class="votacion">
+					<a href="#" class="up_votacion icon-flecha-arriba"></a>
+					969
+					<a href="#" class="down_votacion icon-flecha-abajo"></a>
+					<a href="#" class="comentarios_votacion">3</a>
+					<a href="#" class="estrella_votacion icon-estrella"></a>
 				</div>
 			</article>
 			
